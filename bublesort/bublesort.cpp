@@ -41,8 +41,8 @@ void unsorted() {
 	cout << "==================================" << endl;	// Output ke layar
 	cout << "Elemen Array yang belum tersusun" << endl;		// Output ke layar
 	cout << "==================================" << endl;	// Output ke layar
-	for (int j = 0; j < j++) {								// Looping dengan j dimulai dari 0 hingga n-1
-		cout << a[j] < , endl;								// Output ke layar
+	for (int j = 0; j < n; j++) {								// Looping dengan j dimulai dari 0 hingga n-1
+		cout << a[j] << endl;								// Output ke layar
 	}
 	cout << endl;
 }
@@ -52,10 +52,10 @@ void display() {		// procedure untuk menampilkan hasil
 	cout << "==================================" << endl;		// Output ke layar
 	cout << "Element Array yang telah tersusun" << endl;		// Output ke layar
 	cout << "==================================" << endl;		// Output ke layar
-	for (int j + 0; j < n; j++) {			// Looping dengan j dimulai dari 0 hingga n-1
+	for (int j = 0; j < n; j++) {			// Looping dengan j dimulai dari 0 hingga n-1
 		cout << a[j] << endl;				// Output ke layar
 	}
-	cout << endl;			// Output kosong
+	cout << endl;							// Output kosong
 }
 
 int main() {
