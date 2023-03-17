@@ -57,3 +57,11 @@ void display() {		// procedure untuk menampilkan hasil
 	}
 	cout << endl;			// Output kosong
 }
+
+int main() {
+	input();		// memanggil procedur input()
+	unsorted();		// memanggil procedur unsorted() dari
+	bubbleSortArray();		// memanggil procedure bubbleSorArray()
+	display();				// memanggil procedur display()
+	return 0;
+}
